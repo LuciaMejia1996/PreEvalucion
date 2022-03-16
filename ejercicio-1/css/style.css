@@ -1,0 +1,345 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    max-width: 70vmin;    
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    img{
+        width: 2vmin;
+    }
+    
+    /*Header del menu device mobile*/
+    .barrita{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vmin;
+        height: 40vmin;
+        padding: 4vmin;
+        justify-content: space-between;
+        margin-bottom: 1vmin;
+    }
+
+    .barrita > ul > .menu-device-mobile{
+        justify-content: start;
+        padding-right: 10vmin;
+        position: relative;
+        top: -2vmin;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .barrita > ul > .logo {
+        justify-content: center;
+        padding-right: 14vmin;
+    }
+
+    .barrita > ul > .logo > img {
+        width: 15vmin;
+    }
+
+    .barrita > ul > .carrito > img{
+        width: 7vmin;
+        border: 1px solid #000;
+    }
+
+    .barrita > ul > .carrito{
+        padding-left: 70vmin;
+        position: relative;
+        bottom: 16.5vmin;
+        justify-content: end;   
+    }
+
+    .barrita > ul > li{
+       display: inline-block;
+       margin: 4vmin;
+    }
+
+    div.menu-display,
+    div.menu-display > .logo-medium ,
+    div.menu-display > .menu-medium,
+    div.menu-display > .login,
+    div.menu-display > .alert{
+        display: none;
+     }
+
+      /*End Header del menu device mobile*/
+ 
+     /*Inicio Cabezera*/
+     .cabezera{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vmin;
+        height: 20vmin;
+        padding: 4vmin;
+        justify-content: space-between;
+        margin-bottom: 90vmin;
+    }
+
+    .cabezera > .cabezera-title{
+        position: relative;
+        left: 4vmin;
+        font-size: 12vmin;
+        font-weight: bold;
+        margin-bottom: 5vmin;
+    }
+    .cabezera > .cabezera-body{
+        position: relative;
+        left: 4vmin;
+        font-size: 4.5vmin;
+        color: gray;
+        line-height: 8vmin;
+    }
+    .cabezera > .cabezera-botones > li{
+        position: relative;
+        display: inline-block;
+        top: 4vmin;
+        left: 2vmin;
+        margin-left: 2vmin;
+    }
+
+    .cabezera > .cabezera-botones > li:last-child{
+        margin-left: 2vmin;
+    }
+
+    .cabezera > .cabezera-botones > li > button{
+         width: 35vmin;
+         height: 10vmin;
+         border: none;
+         margin: 1vmin;
+        
+    }
+
+    .cabezera > .cabezera-botones > li > button.cabezera-botones-blue{
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        font-size: 4vmin;
+    }
+
+    .cabezera > .cabezera-botones > li > button.cabezera-botones-white{
+        position: relative;
+        left: 45vmin;
+        bottom: 12vmin;
+        background-color: white;
+        color: blue;
+        font-weight: bold;
+        border: 2px solid rgb(22, 1, 209);
+        font-size: 4vmin;
+        
+    }
+     /*Fin Cabezera*/
+
+
+    /* Inicio lista beneficios*/
+
+    .linea-2{
+        position: relative;
+        top: 31vmin;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vmin;
+        height: 40vmin;
+        padding: 12vmin;
+        justify-content: space-between;
+        margin-bottom: 40vmin;
+        border-top: 1px solid rgb(214, 208, 208);
+        border-bottom: 1px solid rgb(214, 208, 208);
+    }
+
+    .linea-2 > .menu-linea-2 > li.menu-linea-2-options {
+        position: relative;
+        bottom: 10vmin;
+        margin: 2vmin;
+        list-style-image: url('../img/check.svg');
+        font-weight: bold;
+    }
+
+    /* Fin lista beneficios*/
+
+    /* Informe reciente */
+
+    .past-port-table{
+        position: relative;
+        right: 6vmin;
+        width: 70vmin;
+
+    }
+
+    .sales-new, .Past-report-1,
+    .Past-report-2, .Past-report-3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        height: 180vmin;
+        padding: 6vmin;
+        justify-content: space-between;
+        margin-bottom: 20vmin;
+    }
+
+    .sales-new > .portada-sales-new > .img-sales-new, .img-past-1, .img-past-2, .img-past-3{
+        width: 85vmin;
+    }
+
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new, li.obser-past-1-date, li.obser-past-2-date, li.obser-past-3-date {
+        color: blue;
+        margin-top: 5vmin;
+        margin-left: 1vmin;
+        margin-bottom: 5vmin;
+    }
+
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-title, 
+    li.obser-past-1-title, 
+    li.obser-past-2-title, 
+    li.obser-past-3-title{
+        margin-top: 5vmin;
+        margin-left: 4vmin;
+        margin-bottom: 5vmin;
+        font-size: 6.5vmin;
+        font-weight: bold;
+    }
+
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-body, li.obser-past-1-body, li.obser-past-2-body, li.obser-past-3-body{
+        margin-top: 5vmin;
+        margin-left: 4vmin;
+        margin-bottom: 5vmin;
+        font-size: 4.3vmin;
+        color: gray;
+        line-height: 6vmin;
+    }
+
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-date-titule,
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-pages-titule,
+    li.obser-past-1-title, li.obser-past-2-title, li.obser-past-3-title{
+        margin-top: 5vmin;
+        margin-left: 4vmin;
+        margin-bottom: -4vmin;
+        font-weight: bold;
+    }
+
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-date-date,
+    .sales-new > .obsersa-sales-new > ul > li.obser-part-new-pages-number{
+        position: relative;
+        left: 30vmin;
+        bottom: 0.7vmin;
+    }
+    
+ 
+    .sales-new > .obsersa-sales-new > ul > li > button,
+    .Past-report-1 > .obsersa-past-1 > ul > li > button,
+    .Past-report-2 > .obsersa-past-2 > ul > li > button,
+    .Past-report-3 > .obsersa-past-3 > ul > li > button {
+        margin-top: 4vmin;
+        margin-left: 4vmin;
+        width: 35vmin;
+        height: 10vmin;
+        border: none;
+   }
+
+   .sales-new > .obsersa-sales-new > ul > li .obser-part-new-button-blue,
+    .Past-report-1 > .obsersa-past-1 > ul > li.obser-past-1-button-blue > button,
+    .Past-report-2 > .obsersa-past-2 > ul > li.obser-past-2-button-blue > button,
+    .Past-report-3 > .obsersa-past-3 > ul > li.obser-past-3-button-blue > button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 4vmin;
+}
+
+.sales-new > .obsersa-sales-new > ul > li .obser-part-new-button-white,
+.Past-report-1 > .obsersa-past-1 > ul > li.obser-past-1-button-white > button,
+.Past-report-2 > .obsersa-past-2 > ul > li.obser-past-2-button-white > button,
+.Past-report-3 > .obsersa-past-3 > ul > li.obser-past-3-button-white > button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(192, 192, 194);
+    font-size: 4vmin;
+    position: relative;
+    left: 43vmin;
+    bottom: 14vmin;
+}
+
+
+.Past-report-1-titule{
+    margin-top: 2vmin;
+    margin-left: 4vmin;
+}
+
+/*Fin Informe reciente*/
+
+/*sub-plans*/
+.sub-plans{
+    width: 100vmin;
+    height: 80vmin;
+    padding: 2vmin;
+    margin-bottom: 90vmin;
+}
+
+.sub-plans > .sub-plans-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vmin;
+    flex-direction: column;
+}
+
+.sub-plans > .sub-plans-left > h4.sub-plans-left-title,
+.sub-plans > .sub-plans-right > h4.sub-plans-right-title{
+        font-weight: bold;
+        font-size: 7vmin;
+        margin-bottom: 2vmin;
+        text-transform: uppercase;
+        color: rgb(55, 55, 133);
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-body,
+.sub-plans > .sub-plans-right > .sub-plans-right-body{
+    font-size: 6vmin;
+    margin-bottom: 2vmin;
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-cost,
+.sub-plans > .sub-plans-right > .sub-plans-right-cost{
+    font-size: 5vmin;
+    margin-bottom: 2vmin;
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-benefit,
+.sub-plans > .sub-plans-right > .sub-plans-right-benefit{
+    font-size: 5vmin;
+    margin-bottom: 2vmin;
+    margin-left: 5vmin;
+    list-style-image: url('../img/check.svg');
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-button,
+.sub-plans > .sub-plans-right > .sub-plans-right-button{
+    width: 35vmin;
+    height: 15vmin;
+    border: none;
+    margin: 1vmin;   
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-button > button,
+.sub-plans > .sub-plans-left > .sub-plans-right-button > button {
+    margin: 2vmin;
+    
+}
+
+.sub-plans > .sub-plans-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vmin; 
+    flex-direction: column;
+}
+/*End Sub plans*/
+
+}
