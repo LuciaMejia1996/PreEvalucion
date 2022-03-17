@@ -279,9 +279,10 @@
 /*sub-plans*/
 .sub-plans{
     width: 100vmin;
-    height: 80vmin;
+    height: 100vmin;
     padding: 2vmin;
     margin-bottom: 90vmin;
+
 }
 
 .sub-plans > .sub-plans-left{
@@ -289,6 +290,7 @@
     flex-wrap: wrap;
     width: 70vmin;
     flex-direction: column;
+
 }
 
 .sub-plans > .sub-plans-left > h4.sub-plans-left-title,
@@ -320,17 +322,38 @@
     list-style-image: url('../img/check.svg');
 }
 
-.sub-plans > .sub-plans-left > .sub-plans-left-button,
-.sub-plans > .sub-plans-right > .sub-plans-right-button{
-    width: 35vmin;
-    height: 15vmin;
+.sub-plans > .sub-plans-left > .sub-plans-left-button > li > button,
+.sub-plans > .sub-plans-right > .sub-plans-right-button > li > button {
+    margin: 2vmin;
+    width: 36vmin;
+    height: 12vmin;
     border: none;
-    margin: 1vmin;   
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 4vmin;
+    border: 1px solid rgb(221, 221, 235);
 }
 
-.sub-plans > .sub-plans-left > .sub-plans-left-button > button,
-.sub-plans > .sub-plans-left > .sub-plans-right-button > button {
-    margin: 2vmin;
+.sub-plans > .sub-plans-left > .sub-plans-left-button > li > .sub-plans-left-button-white,
+.sub-plans > .sub-plans-right > .sub-plans-right-button > li > .sub-plans-right-button-white{
+    position: relative;
+    left: 42vmin;
+    bottom: 15.5vmin;
+    height: 11.5vmin;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(251, 251, 255);
+    font-size: 4vmin;
+}
+
+.sub-plans > .sub-plans-left > .sub-plans-left-button > li > .sub-plans-left-button-white{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    order: 1px solid rgb(251, 251, 255);
+    font-size: 4vmin;
     
 }
 
@@ -342,4 +365,15 @@
 }
 /*End Sub plans*/
 
+
+
+/*Inicio del footer*/
+
+.pre-footer{
+    width: 100vmin;
+    height: 65vmin;
+    padding: 2vmin;   
+}
+
+/*fin del footer*/
 }
