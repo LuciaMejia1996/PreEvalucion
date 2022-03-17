@@ -279,7 +279,7 @@
 /*sub-plans*/
 .sub-plans{
     width: 100vmin;
-    height: 100vmin;
+    height: 110vmin;
     padding: 2vmin;
     margin-bottom: 90vmin;
 
@@ -367,13 +367,65 @@
 
 
 
-/*Inicio del footer*/
+/*Inicio del pre footer*/
 
 .pre-footer{
     width: 100vmin;
-    height: 65vmin;
+    height: 120vmin;
     padding: 2vmin;   
 }
 
-/*fin del footer*/
+.pre-footer > .pre-footer-left-title{
+    font-weight: bold;
+    font-size: 7.5vmin;
+    padding-bottom: 4vmin;   
+}
+
+.pre-footer > .pre-footer-left > ul > li.pre-footer-left-center > p {
+    font-size: 4.5vmin;
+    color: gray;
+    line-height: 6vmin;
+    margin-bottom: 6vmin;
+}
+
+.pre-footer > .pre-footer-left > ul > li.pre-footer-left-button > button{
+    width: 36vmin;
+    height: 10vmin;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 4vmin;
+    border: 1px solid rgb(177, 177, 179);
+}
+/*fin del pre footer*/
+
+/*Inicio Footer*/
+.pata{
+    border-top: 1px solid rgb(177, 177, 179);
+    width: 100vmin;
+    padding: 2vmin;
+    display: inline;
+
+}
+
+.pata > footer > ul > li.pata-logo > img{
+    width: 16vmin;
+}
+
+.pata > footer > ul > .pata-copyright{
+    position: relative;
+    left: 30vmin;
+    bottom: 7vmin;
+    font-size:3.5vmin;
+    color: gray;
+}
+
+.pata > footer > ul > .pata-url-legal,
+.pata > footer > ul > .pata-social-media{
+    display: none;
+}
+
+
+/*Fin Footer*/
 }
