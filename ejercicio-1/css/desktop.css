@@ -1,12 +1,11 @@
 
-@media only screen and (min-device-width: 451px) and (max-width: 750px) {
+@media only screen and (min-device-width: 751px){
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
         list-style-type: none;
-        max-width: 100vmin;    
         
     }
 
@@ -14,11 +13,16 @@
     .barrita{
         display: flex;
         flex-wrap: wrap;
-        width: 100vmin;
+        width: 140vmin;
         height: 40vmin;
         padding: 4vmin;
         justify-content: space-between;
         margin-bottom: 1vmin;
+    }
+
+    .menu-display > .barrita > .logo-medium > h5.logo-medium-title {
+        position: relative;
+        right: 4vmin;
     }
 
     .barrita > ul > .menu-device-mobile{
@@ -28,11 +32,13 @@
         top: -2vmin;
         text-transform: uppercase;
         font-weight: bold;
+        display: none;
     }
 
     .barrita > ul > .logo {
         justify-content: center;
         padding-right: 14vmin;
+        margin-right: 2vmin;
     }
 
     .barrita > ul > .logo > img {
@@ -47,7 +53,8 @@
     .barrita > ul > .carrito{
         padding-left: 70vmin;
         position: relative;
-        bottom: 16.5vmin;
+        bottom: 23vmin;
+        left: 55vmin;
         justify-content: end;   
     }
 
@@ -56,13 +63,45 @@
        margin: 4vmin;
     }
 
+
     div.menu-display,
     div.menu-display > .logo-medium ,
     div.menu-display > .menu-medium,
     div.menu-display > .login,
     div.menu-display > .alert{
-        display: none;
-     }
+        display: inline-block;
+        position: relative;
+        left: 10vmin;   
+        bottom: 6vmin;
+        margin-left: 2vmin;
+        font-weight: bold;
+        font-size: 2.5vmin;
+
+    }
+
+    div.menu-display > .login > a{
+        position: relative;
+        left: 10vmin;
+        text-decoration: none;
+        color: black;
+    }
+
+    div.menu-display > .alert > button{
+        background-color: blue;
+        color: white;
+        width: 2s0vmin;
+        height: 7vmin;
+        padding: 2vmin;
+        font-weight: bold;
+        border: 1px solid rgb(22, 1, 209);
+        font-size: 2vmin;
+    }
+
+    div.menu-display > .alert{
+        margin-left: 12vmin;
+        position: relative;
+
+    }
 
       /*End Header del menu device mobile*/
  
@@ -79,15 +118,15 @@
 
     .cabezera > .cabezera-title{
         position: relative;
-        left: 4vmin;
-        font-size: 12vmin;
+        left: 6vmin;
+        font-size: 9vmin;
         font-weight: bold;
         margin-bottom: 5vmin;
     }
     .cabezera > .cabezera-body{
         position: relative;
-        left: 4vmin;
-        font-size: 4.5vmin;
+        left: 6vmin;
+        font-size: 5vmin;
         color: gray;
         line-height: 8vmin;
     }
